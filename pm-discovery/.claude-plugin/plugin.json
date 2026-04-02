@@ -1,0 +1,12 @@
+{
+  "name": "pm-discovery",
+  "version": "1.0.0",
+  "description": "Skills for product discovery: user interviews, research synthesis, competitive intelligence, and signal aggregation.",
+  "author": {
+    "name": "Liz Paschen",
+    "url": "https://github.com/lpaschen/pm-skills"
+  },
+  "keywords": ["pm", "discovery", "research", "interviews", "competitive", "synthesis"],
+  "homepage": "https://github.com/lpaschen/pm-skills",
+  "license": "MIT"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "pm-strategy",
+  "version": "1.0.0",
+  "description": "Skills for product strategy: AI product canvas, OKRs, pricing, strategy critique, roadmap narrative, and strategic storytelling.",
+  "author": {
+    "name": "Liz Paschen",
+    "url": "https://github.com/lpaschen/pm-skills"
+  },
+  "keywords": ["pm", "strategy", "okr", "pricing", "roadmap", "narrative", "ai"],
+  "homepage": "https://github.com/lpaschen/pm-skills",
+  "license": "MIT"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "pm-stakeholders",
+  "version": "1.0.0",
+  "description": "Skills for stakeholder communication: executive updates, stakeholder briefs, influence mapping, performance reviews, and weekly reviews.",
+  "author": {
+    "name": "Liz Paschen",
+    "url": "https://github.com/lpaschen/pm-skills"
+  },
+  "keywords": ["pm", "stakeholders", "communication", "executive", "update", "alignment"],
+  "homepage": "https://github.com/lpaschen/pm-skills",
+  "license": "MIT"
+}

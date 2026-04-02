@@ -1,0 +1,12 @@
+{
+  "name": "pm-toolkit",
+  "version": "1.0.0",
+  "description": "Miscellaneous PM career and utility skills: job applications, CV tailoring, and ATS optimisation.",
+  "author": {
+    "name": "Liz Paschen",
+    "url": "https://github.com/lpaschen/pm-skills"
+  },
+  "keywords": ["pm", "career", "job", "cv", "ats"],
+  "homepage": "https://github.com/lpaschen/pm-skills",
+  "license": "MIT"
+}

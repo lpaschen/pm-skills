@@ -1,0 +1,12 @@
+{
+  "name": "pm-design",
+  "version": "1.0.0",
+  "description": "Skills for design collaboration: UX critique and design handoff briefs.",
+  "author": {
+    "name": "Liz Paschen",
+    "url": "https://github.com/lpaschen/pm-skills"
+  },
+  "keywords": ["pm", "design", "ux", "handoff", "critique"],
+  "homepage": "https://github.com/lpaschen/pm-skills",
+  "license": "MIT"
+}
