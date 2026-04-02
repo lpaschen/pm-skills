@@ -2,17 +2,53 @@
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "pm-skills",
   "version": "1.0.0",
+  "description": "31 domain-specific skills for product managers — covering discovery, strategy, execution, analytics, stakeholder communication, design collaboration, and career tools.",
   "owner": {
     "name": "Liz Paschen",
     "url": "https://github.com/lpaschen/pm-skills"
   },
   "plugins": [
-    { "source": "./pm-analytics" },
-    { "source": "./pm-design" },
-    { "source": "./pm-discovery" },
-    { "source": "./pm-execution" },
-    { "source": "./pm-stakeholders" },
-    { "source": "./pm-strategy" },
-    { "source": "./pm-toolkit" }
+    {
+      "name": "pm-analytics",
+      "description": "Skills for product analytics: A/B tests, data analysis, experiment design, health checks, retention, and SQL.",
+      "source": "./pm-analytics",
+      "category": "product-management"
+    },
+    {
+      "name": "pm-design",
+      "description": "Skills for design collaboration: UX critique and design handoff briefs.",
+      "source": "./pm-design",
+      "category": "product-management"
+    },
+    {
+      "name": "pm-discovery",
+      "description": "Skills for product discovery: user interviews, research synthesis, competitive intelligence, and signal aggregation.",
+      "source": "./pm-discovery",
+      "category": "product-management"
+    },
+    {
+      "name": "pm-execution",
+      "description": "Skills for shipping: PRDs, feature prioritisation, experiment design, A/B test planning, launch readiness, and resolving ambiguity.",
+      "source": "./pm-execution",
+      "category": "product-management"
+    },
+    {
+      "name": "pm-stakeholders",
+      "description": "Skills for stakeholder communication: executive updates, stakeholder briefs, influence mapping, performance reviews, and weekly reviews.",
+      "source": "./pm-stakeholders",
+      "category": "product-management"
+    },
+    {
+      "name": "pm-strategy",
+      "description": "Skills for product strategy: AI product canvas, OKRs, pricing, strategy critique, roadmap narrative, and strategic storytelling.",
+      "source": "./pm-strategy",
+      "category": "product-management"
+    },
+    {
+      "name": "pm-toolkit",
+      "description": "Miscellaneous PM career and utility skills: job applications, CV tailoring, and ATS optimisation.",
+      "source": "./pm-toolkit",
+      "category": "product-management"
+    }
   ]
 }
