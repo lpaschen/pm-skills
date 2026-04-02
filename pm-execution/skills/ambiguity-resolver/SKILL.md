@@ -1,10 +1,5 @@
 ---
 name: ambiguity-resolver
-description: Turn vague opportunities and unclear briefs into structured, actionable problem statements
----
-
----
-name: ambiguity-resolver
 description: Structures vague opportunities and unclear briefs into actionable 
 one-page problem statements. Use when user has a vague brief, undefined problem, 
 unclear opportunity, or says "we need to figure out what to do about X", "can 

@@ -1,10 +1,5 @@
 ---
 name: design-critique
-description: Provide structured UX feedback using Nielsen's heuristics, Gestalt principles, and JTBD alignment
----
-
----
-name: design-critique
 description: "Give structured, constructive feedback on any design. Use when asked to critique a design, review a UI, give feedback on a Figma file or wireframe, assess a user flow, or evaluate a design against UX principles. Applies Jobs-to-be-Done, Gestalt principles, and usability heuristics to give actionable feedback."
 ---
 

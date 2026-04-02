@@ -1,10 +1,5 @@
 ---
 name: product-strategy-critique
-description: Play devil's advocate on a product strategy — identify gaps across target audience, problem definition, value prop, differentiation, growth, and monetisation
----
-
----
-name: product-strategy-critique
 description: >
   Provide a product strategy critique — play devil's advocate and identify flaws,
   gaps, and weaknesses in a product strategy document. Use whenever the user wants

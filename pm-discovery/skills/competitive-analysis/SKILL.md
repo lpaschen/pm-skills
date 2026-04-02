@@ -1,10 +1,5 @@
 ---
 name: competitive-analysis
-description: Research the competitive landscape — identify competitors, compare strengths and weaknesses, surface differentiation opportunities
----
-
----
-name: competitive-analysis
 description: >
   Run a competitive analysis — identify competitors, compare strengths and weaknesses,
   map positioning, and surface differentiation opportunities. Use this whenever the user

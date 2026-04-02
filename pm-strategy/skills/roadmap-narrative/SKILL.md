@@ -1,10 +1,5 @@
 ---
 name: roadmap-narrative
-description: Transform a prioritised initiative list into a compelling strategic roadmap narrative for stakeholders
----
-
----
-name: roadmap-narrative
 description: Transform a prioritised initiative list into a compelling strategic roadmap narrative. Use when converting a ranked backlog or initiative list into a coherent story for stakeholders, preparing a roadmap for an all-hands, board update, or planning meeting, or when the user needs to explain "why this, why now" across a set of product bets. Triggers on "roadmap narrative", "roadmap story", "strategic roadmap", "explain our roadmap", "roadmap for all-hands", or "connect initiatives to strategy".
 tool_integration: Notion, Miro
 ---

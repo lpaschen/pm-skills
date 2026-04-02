@@ -1,10 +1,5 @@
 ---
 name: executive-update
-description: Transform detailed product updates into concise executive briefings structured around decisions, risks, and numbers
----
-
----
-name: executive-update
 description: Transform detailed product updates into concise executive briefings. Use when writing a stakeholder update, preparing a leadership summary, sending a sprint or monthly update to executives, or when you need to distill a long product update into something a busy exec will actually read. Triggers on "executive update", "stakeholder update", "leadership summary", "exec briefing", "product update for leadership", or any request to summarise progress for a senior audience.
 tool_integration: Slack, Microsoft Teams
 ---

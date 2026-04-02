@@ -1,10 +1,5 @@
 ---
 name: ai-product-canvas
-description: Structure AI/ML product decisions including model selection, data requirements, evaluation frameworks, and responsible AI considerations
----
-
----
-name: ai-product-canvas
 description: Structures AI and ML product decisions including model selection, data requirements, evaluation frameworks, and responsible AI considerations. Use when building AI-powered features, evaluating LLM integrations, designing AI products, or assessing AI readiness. Triggers on "AI product", "LLM feature", "AI canvas", "build with AI", "AI integration", "AI-powered", "machine learning feature".
 ---
 

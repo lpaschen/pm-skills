@@ -1,10 +1,5 @@
 ---
 name: feature-prioritisation
-description: Apply RICE, MoSCoW, Kano, ICE, or Opportunity Scoring frameworks to rank features and backlog items
----
-
----
-name: feature-prioritisation
 description: Applies prioritisation frameworks (RICE, MoSCoW, Kano, ICE, Opportunity Scoring) to rank features and backlog items. Use when asked to prioritise features, rank a backlog, decide what to build next, or evaluate tradeoffs. Triggers on "prioritise features", "what should we build", "backlog grooming", "RICE score", "MoSCoW".
 ---
 

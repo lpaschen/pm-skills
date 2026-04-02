@@ -1,10 +1,5 @@
 ---
 name: discovery-interview-guide
-description: Create structured user discovery interview guides with screener questions, discussion guides, and synthesis frameworks
----
-
----
-name: discovery-interview-guide
 description: Creates structured user discovery interview guides with screener questions, discussion guides, and synthesis frameworks. Use when planning user interviews, customer discovery sessions, Jobs-to-be-Done research, or problem validation. Triggers on "user interview", "discovery interview", "customer research", "JTBD", "problem validation".
 ---
 

@@ -1,10 +1,5 @@
 ---
 name: data-analysis-standard
-description: Structure product data analyses with a clear question, methodology, finding, and recommended action
----
-
----
-name: data-analysis-standard
 description: Structures product data analysis, metric deep-dives, funnel analysis, and cohort studies. Use when asked to analyse product metrics, investigate a drop in conversion, build a dashboard spec, or explain data to stakeholders. Triggers on "analyse metrics", "funnel analysis", "cohort analysis", "data deep dive", "why did X drop".
 ---
 

@@ -1,10 +1,5 @@
 ---
 name: competitive-intelligence-monitor
-description: Monitor competitor signals and surface strategic insights from web, news, and product changes
----
-
----
-name: competitive-intelligence-monitor
 description: Continuously monitors competitor signals and surfaces strategic 
 implications for your roadmap. Use when user asks to "monitor competitors", 
 "track competitive landscape", "what are competitors doing this week", 

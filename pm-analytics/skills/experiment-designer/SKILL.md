@@ -1,10 +1,5 @@
 ---
 name: experiment-designer
-description: Design A/B tests from hypotheses and interpret results with statistical and practical significance
----
-
----
-name: experiment-designer
 description: Designs A/B tests from hypotheses and interprets experiment results with statistical rigour. Use when user says "run an experiment", "design an A/B test", "test this feature", "interpret these results", "was this experiment successful", or "what sample size do I need".
 metadata:
   author: Mohit Aggarwal

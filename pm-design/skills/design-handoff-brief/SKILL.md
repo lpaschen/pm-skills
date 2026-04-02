@@ -1,10 +1,5 @@
 ---
 name: design-handoff-brief
-description: Transform feature briefs into structured design briefs that give designers the user context and constraints they need
----
-
----
-name: design-handoff-brief
 description: Transform feature briefs into structured design briefs that give designers the context they need. Use when handing off a feature to a designer, writing a design brief from a PRD or spec, or when a designer needs user context before opening Figma. Triggers on "design brief", "design handoff", "brief for designer", "hand off to design", "designer needs context", or when a PM is preparing a feature for design.
 tool_integration: Figma, Notion
 ---

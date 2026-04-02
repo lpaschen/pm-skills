@@ -1,10 +1,5 @@
 ---
 name: multi-source-signal-synthesiser
-description: Synthesise user signals from multiple research sources (interviews, support tickets, NPS, reviews) into a unified insight brief
----
-
----
-name: multi-source-signal-synthesiser
 description: Synthesises user signals from multiple research sources into a unified insight brief, reconciling conflicting feedback.
 author: Mohit Aggarwal
 version: 1.0.0

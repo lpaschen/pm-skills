@@ -1,10 +1,5 @@
 ---
 name: ab-test-planner
-description: Design statistically rigorous A/B tests for product features, UI changes, and onboarding flows
----
-
----
-name: ab-test-planner
 description: Designs statistically rigorous A/B tests for product features, UI changes, onboarding flows, and pricing experiments. Use when asked to set up an experiment, run an A/B test, calculate sample size, or interpret test results. Triggers on "A/B test", "experiment", "split test", "statistical significance", "sample size".
 ---
 

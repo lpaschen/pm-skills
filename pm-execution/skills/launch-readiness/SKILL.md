@@ -1,10 +1,5 @@
 ---
 name: launch-readiness
-description: Run a comprehensive pre-launch readiness assessment across product, engineering, marketing, support, and sales
----
-
----
-name: launch-readiness
 description: Run a comprehensive pre-launch readiness assessment across all functions
 tool_integration: Notion, Jira, Slack
 ---

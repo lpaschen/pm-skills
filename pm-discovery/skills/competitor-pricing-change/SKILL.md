@@ -1,10 +1,5 @@
 ---
 name: competitor-pricing-change
-description: Check competitor pricing pages for changes and flag anything that has shifted since the last snapshot
----
-
----
-name: competitor-pricing-change
 description: >
   Monitor a list of competitors for pricing changes on their websites. Use this whenever
   the user wants to check if a competitor has changed their pricing, wants to track pricing
