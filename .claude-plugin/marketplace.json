@@ -11,189 +11,190 @@
   "plugins": [
     {
       "name": "ab-test-planner",
-      "source": "../ab-test-planner",
+      "source": "./ab-test-planner",
       "description": "Design statistically rigorous A/B tests for product features, UI changes, and onboarding flows",
       "category": "analytics"
     },
     {
       "name": "ai-product-canvas",
-      "source": "../ai-product-canvas",
+      "source": "./ai-product-canvas",
       "description": "Structure AI/ML product decisions including model selection, data requirements, evaluation frameworks, and responsible AI considerations",
       "category": "strategy"
     },
     {
       "name": "ambiguity-resolver",
-      "source": "../ambiguity-resolver",
+      "source": "./ambiguity-resolver",
       "description": "Turn vague opportunities and unclear briefs into structured, actionable problem statements",
       "category": "discovery"
     },
     {
       "name": "competitive-analysis",
-      "source": "../competitive-analysis",
+      "source": "./competitive-analysis",
       "description": "Research the competitive landscape — identify competitors, compare strengths and weaknesses, surface differentiation opportunities",
       "category": "strategy"
     },
     {
       "name": "competitive-intelligence-monitor",
-      "source": "../competitive-intelligence-monitor",
+      "source": "./competitive-intelligence-monitor",
       "description": "Monitor competitor signals and surface strategic insights from web, news, and product changes",
       "category": "strategy"
     },
     {
       "name": "competitor-pricing-change",
-      "source": "../competitor-pricing-change",
+      "source": "./competitor-pricing-change",
       "description": "Check competitor pricing pages for changes and flag anything that has shifted since the last snapshot",
       "category": "strategy"
     },
     {
       "name": "data-analysis-standard",
-      "source": "../data-analysis-standard",
+      "source": "./data-analysis-standard",
       "description": "Structure product data analyses with a clear question, methodology, finding, and recommended action",
       "category": "analytics"
     },
     {
       "name": "design-critique",
-      "source": "../design-critique",
+      "source": "./design-critique",
       "description": "Provide structured UX feedback using Nielsen's heuristics, Gestalt principles, and JTBD alignment",
       "category": "design"
     },
     {
       "name": "design-handoff-brief",
-      "source": "../design-handoff-brief",
+      "source": "./design-handoff-brief",
       "description": "Transform feature briefs into structured design briefs that give designers the user context and constraints they need",
       "category": "design"
     },
     {
       "name": "discovery-interview-guide",
-      "source": "../discovery-interview-guide",
+      "source": "./discovery-interview-guide",
       "description": "Create structured user discovery interview guides with screener questions, discussion guides, and synthesis frameworks",
       "category": "discovery"
     },
     {
       "name": "executive-update",
-      "source": "../executive-update",
+      "source": "./executive-update",
       "description": "Transform detailed product updates into concise executive briefings structured around decisions, risks, and numbers",
       "category": "communication"
     },
     {
       "name": "experiment-designer",
-      "source": "../experiment-designer",
+      "source": "./experiment-designer",
       "description": "Design A/B tests from hypotheses and interpret results with statistical and practical significance",
       "category": "analytics"
     },
     {
       "name": "feature-prioritisation",
-      "source": "../feature-prioritisation",
+      "source": "./feature-prioritisation",
       "description": "Apply RICE, MoSCoW, Kano, ICE, or Opportunity Scoring frameworks to rank features and backlog items",
       "category": "strategy"
     },
     {
       "name": "job-application",
-      "source": "../job-application",
+      "source": "./job-application",
       "description": "Tailor a CV and cover letter to a specific job description with ATS optimisation and gap analysis",
       "category": "career"
     },
     {
       "name": "launch-readiness",
-      "source": "../launch-readiness",
+      "source": "./launch-readiness",
       "description": "Run a comprehensive pre-launch readiness assessment across product, engineering, marketing, support, and sales",
       "category": "execution"
     },
     {
       "name": "multi-source-signal-synthesiser",
-      "source": "../multi-source-signal-synthesiser",
+      "source": "./multi-source-signal-synthesiser",
       "description": "Synthesise user signals from multiple research sources (interviews, support tickets, NPS, reviews) into a unified insight brief",
       "category": "discovery"
     },
     {
       "name": "okr-builder",
-      "source": "../okr-builder",
+      "source": "./okr-builder",
       "description": "Create well-structured Objectives and Key Results with quality checks and scoring guidance",
       "category": "strategy"
     },
     {
       "name": "performance-review",
-      "source": "../performance-review",
+      "source": "./performance-review",
       "description": "Transform notes into professional performance reviews with structured templates and clear framing",
       "category": "career"
     },
     {
       "name": "pm-weekly-review",
-      "source": "../pm-weekly-review",
+      "source": "./pm-weekly-review",
       "description": "Run a structured 20-minute weekly PM review covering metrics, shipping progress, blockers, and next priorities",
       "category": "execution"
     },
     {
       "name": "prd-template",
-      "source": "../prd-template",
+      "source": "./prd-template",
       "description": "Write a complete Product Requirements Document from a problem statement or feature idea",
       "category": "execution"
     },
     {
       "name": "pricing-strategy",
-      "source": "../pricing-strategy",
+      "source": "./pricing-strategy",
       "description": "Evaluate and design pricing models, tiers, and packaging using SaaS pricing frameworks",
       "category": "strategy"
     },
     {
       "name": "product-health-analysis",
-      "source": "../product-health-analysis",
+      "source": "./product-health-analysis",
       "description": "Assess overall product health across acquisition, activation, engagement, retention, and revenue metrics",
       "category": "analytics"
     },
     {
       "name": "product-strategy-critique",
-      "source": "../product-strategy-critique",
+      "source": "./product-strategy-critique",
       "description": "Play devil's advocate on a product strategy — identify gaps across target audience, problem definition, value prop, differentiation, growth, and monetisation",
       "category": "strategy"
     },
     {
       "name": "retention-analysis",
-      "source": "../retention-analysis",
+      "source": "./retention-analysis",
       "description": "Structure retention analyses including cohort breakdowns, churn root cause investigation, and improvement recommendations",
       "category": "analytics"
     },
     {
       "name": "roadmap-narrative",
-      "source": "../roadmap-narrative",
+      "source": "./roadmap-narrative",
       "description": "Transform a prioritised initiative list into a compelling strategic roadmap narrative for stakeholders",
       "category": "communication"
     },
     {
       "name": "sql-query-explainer",
-      "source": "../sql-query-explainer",
+      "source": "./sql-query-explainer",
       "description": "Explain SQL queries in plain English and suggest optimisations",
       "category": "analytics"
     },
     {
       "name": "stakeholder-influence-mapper",
-      "source": "../stakeholder-influence-mapper",
+      "source": "./stakeholder-influence-mapper",
       "description": "Map stakeholder relationships, interests, and influence to inform alignment and communication strategy",
       "category": "communication"
     },
     {
       "name": "stakeholder-update",
-      "source": "../stakeholder-update",
+      "source": "./stakeholder-update",
       "description": "Write targeted stakeholder updates tailored to audience, cadence, and communication goal",
       "category": "communication"
     },
     {
       "name": "strategic-narrative-generator",
-      "source": "../strategic-narrative-generator",
+      "source": "./strategic-narrative-generator",
       "description": "Transform a list of product initiatives into a coherent strategic narrative for non-technical audiences",
       "category": "communication"
     },
     {
       "name": "user-interview-synthesis",
-      "source": "../user-interview-synthesis",
+      "source": "./user-interview-synthesis",
       "description": "Synthesise user interview transcripts into structured themes, insights, and actionable recommendations",
       "category": "discovery"
     },
     {
       "name": "user-research-synthesis",
-      "source": "../user-research-synthesis",
+      "source": "./user-research-synthesis",
       "description": "Synthesise mixed-method user research into prioritised findings and product implications",
       "category": "discovery"
     }
-  ]
+  ],
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json"
 }
