@@ -2,7 +2,7 @@
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "pm-skills",
   "version": "1.0.0",
-  "description": "31 domain-specific skills for product managers — covering discovery, strategy, execution, analytics, stakeholder communication, design collaboration, and career tools.",
+  "description": "32 domain-specific skills for product managers — covering discovery, strategy, execution, analytics, stakeholder communication, design collaboration, and career tools.",
   "owner": {
     "name": "Liz Paschen",
     "url": "https://github.com/lpaschen/pm-skills"
@@ -28,7 +28,7 @@
     },
     {
       "name": "pm-execution",
-      "description": "Skills for shipping: PRDs, feature prioritisation, experiment design, A/B test planning, launch readiness, and resolving ambiguity.",
+      "description": "Skills for shipping: PRDs, release notes, feature prioritisation, experiment design, A/B test planning, launch readiness, and resolving ambiguity.",
       "source": "./pm-execution",
       "category": "product-management"
     },

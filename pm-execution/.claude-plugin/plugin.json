@@ -1,12 +1,12 @@
 {
   "name": "pm-execution",
   "version": "1.0.0",
-  "description": "Skills for shipping: PRDs, feature prioritisation, experiment design, A/B test planning, launch readiness, and resolving ambiguity.",
+  "description": "Skills for shipping: PRDs, release notes, feature prioritisation, experiment design, A/B test planning, launch readiness, and resolving ambiguity.",
   "author": {
     "name": "Liz Paschen",
     "url": "https://github.com/lpaschen/pm-skills"
   },
-  "keywords": ["pm", "execution", "prd", "prioritisation", "launch", "experiment", "ab-test"],
+  "keywords": ["pm", "execution", "prd", "release-notes", "prioritisation", "launch", "experiment", "ab-test"],
   "homepage": "https://github.com/lpaschen/pm-skills",
   "license": "MIT"
 }
