@@ -26,3 +26,15 @@ The generator produces seven components:
 "Write for a CFO, not an engineer" and "Lead with outcomes, not features" are the north stars. The approach treats clarity as a strategy test—if you cannot explain something plainly, the strategy needs refinement.
 
 The skill acknowledges competitive context strengthens output while remaining optional, making it flexible for various planning maturity levels.
+
+## Saving Output
+
+After generating the narrative, save it to:
+`~/Documents/product_hub/roadmap-narrative/`
+
+Use this filename format: `<upcoming-quarter>-<year>-Llamas-roadmap-narrative.md`
+- Example: `Q2-2026-Llamas-roadmap-narrative.md`
+- Derive the upcoming quarter from today's date (e.g. if today is in Q1, save as Q2)
+- Create the `roadmap-narrative` folder if it doesn't exist
+
+Confirm the file path to the user after saving.
