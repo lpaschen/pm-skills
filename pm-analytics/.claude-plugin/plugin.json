@@ -1,7 +1,7 @@
 {
   "name": "pm-analytics",
-  "version": "1.0.0",
-  "description": "Skills for product analytics: A/B tests, data analysis, experiment design, health checks, retention, and SQL.",
+  "version": "1.0.1",
+  "description": "Skills for product analytics: A/B tests, data analysis, experiment design, health checks, retention, SQL, and BigQuery data curiosity.",
   "author": {
     "name": "Liz Paschen",
     "url": "https://github.com/lpaschen/pm-skills"
