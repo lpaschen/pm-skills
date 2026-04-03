@@ -1,7 +1,7 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "pm-skills",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "32 domain-specific skills for product managers — covering discovery, strategy, execution, analytics, stakeholder communication, design collaboration, and career tools.",
   "owner": {
     "name": "Liz Paschen",
