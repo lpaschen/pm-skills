@@ -126,7 +126,15 @@ Include 2–4 risks. Focus on risks that are real and specific to this feature �
 
 ---
 
-### Step 4 — Save the PRD
+### Step 4 — Review before saving
+
+Output the full PRD content to the user for review. Then ask: "Does this look good to save, or would you like any changes first?"
+
+Do not save the file until the user explicitly confirms they are happy with the content.
+
+### Step 5 — Save the PRD
+
+Once the user confirms, save the file:
 
 - Derive a filename using the format: `YYYY-MM-<team>-<feature-slug>.md`
   - Example: `2026-03-CP-Llamas-persistent_dashboard_filtering.md`
@@ -138,7 +146,7 @@ Include 2–4 risks. Focus on risks that are real and specific to this feature �
   - If none fit, save to `~/Documents/product_hub/projects/`
 - Use clean Markdown — no HTML, no unnecessary formatting
 
-### Step 5 — Confirm to the user
+### Step 6 — Confirm to the user
 
 Tell the user:
 - The file path where it was saved
