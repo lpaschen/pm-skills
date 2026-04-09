@@ -1,6 +1,6 @@
 # pm-skills
 
-A collection of 31 custom Claude skills for product managers. These skills give Claude structured frameworks, templates, and domain expertise for common PM workflows — from discovery interviews to competitive analysis to executive updates.
+A collection of 33 custom Claude skills for product managers. These skills give Claude structured frameworks, templates, and domain expertise for common PM workflows — from discovery interviews to competitive analysis to executive updates.
 
 ## How to Use
 
@@ -43,6 +43,7 @@ Most skills trigger automatically based on what you ask. You can also invoke the
 | `executive-update` | Transform detailed product updates into concise executive briefings structured around decisions, risks, and numbers |
 | `experiment-designer` | Design A/B tests from hypotheses and interpret results with statistical and practical significance |
 | `feature-prioritisation` | Apply RICE, MoSCoW, Kano, ICE, or Opportunity Scoring frameworks to rank features and backlog items |
+| `initiative-impact-tracking` | Generate a pre-launch hypothesis, create an initiative log entry, or write a monthly learning doc entry — the three parts of the initiative impact tracking process |
 | `job-application` | Tailor a CV and cover letter to a specific job description with ATS optimisation and gap analysis |
 | `launch-readiness` | Run a comprehensive pre-launch readiness assessment across product, engineering, marketing, support, and sales |
 | `multi-source-signal-synthesiser` | Synthesise user signals from multiple research sources (interviews, support tickets, NPS, reviews) into a unified insight brief |
@@ -50,6 +51,7 @@ Most skills trigger automatically based on what you ask. You can also invoke the
 | `performance-review` | Transform notes into professional performance reviews with structured templates and clear framing |
 | `pm-weekly-review` | Run a structured 20-minute weekly PM review covering metrics, shipping progress, blockers, and next priorities |
 | `prd-template` | Write a complete Product Requirements Document from a problem statement or feature idea |
+| `product-review` | Prepare and run a Product Review with Bitly's CEO, CPO, and Sr Director of Product — pre-read doc, session structure, and debrief template |
 | `pricing-strategy` | Evaluate and design pricing models, tiers, and packaging using SaaS pricing frameworks |
 | `product-health-analysis` | Assess overall product health across acquisition, activation, engagement, retention, and revenue metrics |
 | `product-strategy-critique` | Play devil's advocate on a product strategy — identify gaps across target audience, problem definition, value prop, differentiation, growth, and monetisation |
