@@ -57,6 +57,7 @@ Most skills trigger automatically based on what you ask. You can also invoke the
 | `product-strategy-critique` | Play devil's advocate on a product strategy — identify gaps across target audience, problem definition, value prop, differentiation, growth, and monetisation |
 | `retention-analysis` | Structure retention analyses including cohort breakdowns, churn root cause investigation, and improvement recommendations |
 | `roadmap-narrative` | Transform a prioritised initiative list into a compelling strategic roadmap narrative for stakeholders |
+| `shapeup-pitch` | Write a Shape Up pitch document — Problem, Appetite, Solution, Rabbit Holes, No-gos — for a betting table or cycle kickoff |
 | `sql-query-explainer` | Explain SQL queries in plain English and suggest optimisations |
 | `stakeholder-influence-mapper` | Map stakeholder relationships, interests, and influence to inform alignment and communication strategy |
 | `stakeholder-update` | Write targeted stakeholder updates tailored to audience, cadence, and communication goal |
