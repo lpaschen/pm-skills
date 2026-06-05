@@ -1,6 +1,6 @@
 # pm-skills
 
-A collection of 34 custom Claude skills for product managers. These skills give Claude structured frameworks, templates, and domain expertise for common PM workflows — from discovery interviews to competitive analysis to executive updates.
+A collection of 35 custom Claude skills for product managers. These skills give Claude structured frameworks, templates, and domain expertise for common PM workflows — from discovery interviews to competitive analysis to executive updates.
 
 ## How to Use
 
@@ -56,9 +56,9 @@ Most skills trigger automatically based on what you ask. You can also invoke the
 | `product-health-analysis` | Assess overall product health across acquisition, activation, engagement, retention, and revenue metrics |
 | `product-strategy-critique` | Play devil's advocate on a product strategy — identify gaps across target audience, problem definition, value prop, differentiation, growth, and monetisation |
 | `retention-analysis` | Structure retention analyses including cohort breakdowns, churn root cause investigation, and improvement recommendations |
-| `shapeup-pitch` | Develop or pressure-test a product idea using the Shape Up pitch format — problem, appetite, sketch, rabbit holes, no-gos, and open questions |
 | `roadmap-narrative` | Transform a prioritised initiative list into a compelling strategic roadmap narrative for stakeholders |
-| `shapeup-pitch` | Write a Shape Up pitch document — Problem, Appetite, Solution, Rabbit Holes, No-gos — for a betting table or cycle kickoff |
+| `shape-up-pitch` | Write a Shape Up pitch — Problem, Appetite, Solution, Rabbit Holes, Expected Revenue Impact, No-Gos — following a structured shaping process before writing |
+| `shape-up-reviewer` | Review a Shape Up pitch before it goes to the betting table — scored feedback, hard blockers, and a READY / READY WITH CONDITIONS / NOT READY verdict |
 | `sql-query-explainer` | Explain SQL queries in plain English and suggest optimisations |
 | `stakeholder-influence-mapper` | Map stakeholder relationships, interests, and influence to inform alignment and communication strategy |
 | `stakeholder-update` | Write targeted stakeholder updates tailored to audience, cadence, and communication goal |
