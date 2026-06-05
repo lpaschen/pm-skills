@@ -125,7 +125,9 @@ The whole pitch should fit in one to two pages. Brevity signals good shaping.
 
 ### Phase 3: Save as a .md file
 
-Ask the user where they'd like to save the pitch. If they don't specify a location, save it in the current working directory.
+Before saving, ask: "Where would you like to save this pitch? Give me a folder path, or I'll save it in the current working directory."
+
+Wait for the user's response before writing the file. Once you have a location (or they confirm the current directory), save it there.
 
 Name the file using kebab-case based on the feature/initiative, e.g.:
 `pitch-website-conversion-tracking.md`
@@ -169,7 +171,15 @@ Distinguish between retained ARR (defensive), new ARR (growth), or indirect upsi
 - [...]
 ```
 
-After saving, share the file link and briefly summarize: the core bet, the appetite rationale, and any rabbit holes that were consciously no-go'd.
+### Phase 4: Offer a betting table review
+
+After saving, ask:
+
+> "Pitch saved. Want me to run a betting table review on it now? I'll score each section, flag any hard blockers, and give you a READY / READY WITH CONDITIONS / NOT READY verdict before you take it to the table."
+
+If yes, invoke the `shape-up-reviewer` skill on the saved pitch file.
+
+If no, briefly summarize: the core bet, the appetite rationale, and any rabbit holes that were consciously no-go'd.
 
 ---
 
