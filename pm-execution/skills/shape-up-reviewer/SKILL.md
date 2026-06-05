@@ -5,7 +5,7 @@ description: >
   a user wants to review, critique, stress-test, or get feedback on a Shape Up pitch —
   even if they just say "review this pitch," "poke holes in this," "is this ready,"
   or "what am I missing." Produces a scored review with structured feedback across all
-  five pitch elements, named gaps, targeted questions, and a betting-table readiness
+  six pitch elements, named gaps, targeted questions, and a betting-table readiness
   verdict. Should trigger any time a pitch document is shared or a pitch review is requested.
 ---
 
@@ -44,6 +44,7 @@ Produce output in exactly this structure. No preamble. No meta-commentary about 
 | Appetite | X/10 | [STRONG / ADEQUATE / WEAK / MISSING] |
 | Solution | X/10 | [STRONG / ADEQUATE / WEAK / MISSING] |
 | Rabbit Holes | X/10 | [STRONG / ADEQUATE / WEAK / MISSING] |
+| Expected Revenue Impact | X/10 | [STRONG / ADEQUATE / WEAK / MISSING] |
 | No-Gos | X/10 | [STRONG / ADEQUATE / WEAK / MISSING] |
 | **Overall** | **X/10** | |
 
@@ -64,6 +65,9 @@ For each element: one sentence on what's working, then named gaps and risks. Be 
 
 **Rabbit Holes**
 [What's working. Then: which rabbit holes are named but unresolved? Which obvious risks are not named? Are any "rabbit holes" actually requirements in disguise?]
+
+**Expected Revenue Impact**
+[What's working. Then: is this a real estimate with visible math, or an assertion without reasoning? Is the mechanism clear — retained ARR, new ARR, or indirect enabler? Are any dollar figures placeholders ($X)? Does the impact claim match the scope of the solution?]
 
 **No-Gos**
 [What's working. Then: what's missing from the no-go list? Which no-gos are too vague to be enforceable? Does anything in the solution contradict a no-go?]
@@ -111,7 +115,7 @@ Score each element 1–10. Anchor points:
 
 ## Betting Table Readiness Guide
 
-**READY** — All five elements are present and credible. No hard blockers. The betting table could make a decision with what's here.
+**READY** — All six elements are present and credible. No hard blockers. The betting table could make a decision with what's here.
 
 **READY WITH CONDITIONS** — The pitch is shapeable but has named pre-conditions. List them explicitly. The pitch should not go to the betting table until they're resolved.
 
