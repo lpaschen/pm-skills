@@ -4,7 +4,7 @@
 
 Bitly runs bi-weekly or monthly Product Reviews: short touchpoints between planning cycles where PMs bring work-in-progress to the CEO, CPO, and Sr Director of Product for **input**, not approval. The goal is to get strategic context and leadership signal early enough that it can actually change the outcome.
 
-Kelsey (CPO) and Peter (CEO) are accountable to the board for outcomes. These sessions are how they stay close to the work between planning cycles — not to judge or approve, but to contribute.
+The CPO and CEO are accountable to the board for outcomes. These sessions are how they stay close to the work between planning cycles — not to judge or approve, but to contribute.
 
 ---
 
