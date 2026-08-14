@@ -1,12 +1,12 @@
 {
   "name": "pm-analytics",
-  "version": "2.0.0",
-  "description": "Product analytics skill with three modes: A/B testing (design + results), data analysis, and SQL query explainer. Product health/retention benchmarking left unconsolidated pending mature analytics.",
+  "version": "2.1.0",
+  "description": "Product analytics skill with four modes: A/B testing (design + results), data analysis, initiative impact tracking, and SQL query explainer. Product health/retention benchmarking scrapped pending mature analytics.",
   "author": {
     "name": "Liz Paschen",
     "url": "https://github.com/lpaschen/pm-skills"
   },
-  "keywords": ["pm", "analytics", "ab-test", "data", "retention", "sql", "experiment"],
+  "keywords": ["pm", "analytics", "ab-test", "data", "sql", "experiment", "impact-tracking"],
   "homepage": "https://github.com/lpaschen/pm-skills",
   "license": "MIT"
 }

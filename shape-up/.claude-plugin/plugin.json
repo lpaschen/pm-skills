@@ -1,0 +1,12 @@
+{
+  "name": "shape-up",
+  "version": "1.0.0",
+  "description": "Write a Shape Up pitch and review it before the betting table.",
+  "author": {
+    "name": "Liz Paschen",
+    "url": "https://github.com/lpaschen/pm-skills"
+  },
+  "keywords": ["shape-up", "pitch", "betting-table", "product-planning"],
+  "homepage": "https://github.com/lpaschen/pm-skills",
+  "license": "MIT"
+}

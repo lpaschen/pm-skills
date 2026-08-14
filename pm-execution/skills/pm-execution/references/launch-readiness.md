@@ -1,32 +1,17 @@
----
-description: Run a pre-launch readiness assessment across product, engineering, marketing, support, and sales
-argument-hint: "<feature or product being launched>"
----
+# Launch Readiness
 
-# /launch -- Launch Readiness Assessment
+Ensure nothing falls through the cracks before launch by systematically checking readiness across every function, and produce a clear, evidenced go/no-go recommendation.
 
-Run a structured readiness check before you ship. Surfaces gaps across every function that needs to be ready — and produces a go/no-go recommendation.
+## Step 1: Establish the Scope
 
-## Invocation
-
-```
-/launch Weekly Insights email feature
-/launch QR Codes redesign — targeting GA next Tuesday
-/launch [paste launch brief or PRD]
-/launch                    # asks what you're launching and when
-```
-
-## Workflow
-
-### Step 1: Establish the Scope
 Ask if not provided:
 - "What are you launching?"
 - "What is the planned launch date?"
 - "Is this a full GA, limited beta, flag-gated rollout, or phased launch?"
 
-### Step 2: Run the Readiness Check
+## Step 2: Run the Readiness Check
 
-```
+```markdown
 ## Launch Readiness: [Feature Name]
 **Launch Date:** [Date]
 **Launch Type:** [GA / Beta / Phased / Flag-gated]
@@ -63,6 +48,11 @@ Ask if not provided:
 - [ ] Pricing and packaging implications communicated
 - [ ] Demo environment updated
 
+### Data & Analytics ✅/⚠️/❌
+- [ ] Tracking events implemented and verified
+- [ ] Launch metrics dashboard live
+- [ ] Baseline metrics captured pre-launch
+
 ---
 
 ### Gaps & Blockers
@@ -78,11 +68,13 @@ Ask if not provided:
 **Conditions (if applicable):** [What must be true before flipping the switch]
 ```
 
-### Step 3: Identify the Critical Path
+## Step 3: Identify the Critical Path
+
 Highlight the single most important item to resolve before the launch date.
 
 ## Notes
+
 - A 🔴 blocker in Engineering or Product is an automatic NO-GO
 - 🟡 risks in Marketing or Support can be managed post-launch with a mitigation plan
-- Pair with `/update` to write the launch announcement for stakeholders
+- Pair with `pm-stakeholders`'s Write a Stakeholder Update mode (Launch Announcement template) once the launch is a go
 - For phased rollouts, run this check again at each rollout milestone

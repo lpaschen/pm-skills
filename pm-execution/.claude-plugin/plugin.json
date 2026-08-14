@@ -1,12 +1,12 @@
 {
   "name": "pm-execution",
-  "version": "1.0.1",
-  "description": "Skills for shipping: PRDs, release notes, feature prioritisation, experiment design, A/B test planning, launch readiness, and resolving ambiguity.",
+  "version": "2.0.0",
+  "description": "Shipping skill with four modes: ambiguity resolution, feature prioritization, launch readiness, and release notes. PRD dropped (superseded by Shape Up); Shape Up and Initiative Impact Tracking moved to their own homes.",
   "author": {
     "name": "Liz Paschen",
     "url": "https://github.com/lpaschen/pm-skills"
   },
-  "keywords": ["pm", "execution", "prd", "release-notes", "prioritisation", "launch", "experiment", "ab-test"],
+  "keywords": ["pm", "execution", "release-notes", "prioritisation", "launch", "ambiguity"],
   "homepage": "https://github.com/lpaschen/pm-skills",
   "license": "MIT"
 }

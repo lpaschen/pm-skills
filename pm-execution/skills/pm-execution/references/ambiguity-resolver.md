@@ -1,17 +1,5 @@
----
-name: ambiguity-resolver
-description: Structures vague opportunities and unclear briefs into actionable 
-one-page problem statements. Use when user has a vague brief, undefined problem, 
-unclear opportunity, or says "we need to figure out what to do about X", "can 
-you help me make sense of this", or "I've been asked to look into Y".
-metadata:
-  author: Mohit Aggarwal
-  version: 1.0.0
-  category: discovery
-  tags: [discovery, strategy, problem-framing, ambiguity]
-  documentation: https://github.com/mohitagw15856/pm-claude-skills
----
-# Ambiguity Resolver Skill
+
+# Ambiguity Resolver
 
 ## Purpose
 Turn vague briefs and half-formed opportunities into structured, actionable 

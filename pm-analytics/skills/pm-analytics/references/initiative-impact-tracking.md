@@ -1,10 +1,3 @@
----
-name: initiative-impact-tracking
-description: Generate a pre-launch hypothesis, format an initiative log entry, or write a monthly learning doc entry — the three parts of the initiative impact tracking process
-argument-hint: "hypothesis | log | learning — followed by initiative details"
-allowed-tools: [Read, Write, Glob]
----
-
 # Initiative Impact Tracking
 
 Help a PM execute the initiative impact tracking process. This skill handles three distinct outputs that work together to create a feedback loop between what ships and what it produces.

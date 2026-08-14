@@ -1,17 +1,4 @@
----
-name: shape-up-pitch
-description: >
-  Write a Shape Up pitch — the structured document used to propose a project in the Shape Up
-  product development model. Use this skill whenever the user says "write a pitch", "draft a
-  pitch for Shape Up", "help me pitch this idea", "turn this into a pitch", or when they describe
-  a problem/feature and the team uses Shape Up cycles. Also use it proactively when the user shares
-  a rough product idea and wants to take it into a betting table or planning meeting. The skill
-  first helps shape the idea (appetite, problem clarity, no-gos), then interviews for specifics,
-  then produces a concise, well-shaped .md pitch file covering Problem (with quantified data),
-  Appetite, Solution, Expected Revenue Impact, and No-Gos.
----
-
-# Shape Up Pitch Skill
+# Shape Up: Pitch Mode
 
 You are helping a product manager write a Shape Up pitch — the structured, concise proposal used
 to bring a shaped idea to a betting table. Your job has two distinct phases: **shaping** (is this
@@ -177,7 +164,7 @@ After saving, ask:
 
 > "Pitch saved. Want me to run a betting table review on it now? I'll score each section, flag any hard blockers, and give you a READY / READY WITH CONDITIONS / NOT READY verdict before you take it to the table."
 
-If yes, invoke the `shape-up-reviewer` skill on the saved pitch file.
+If yes, switch to Review Mode (`references/review.md`) on the saved pitch file.
 
 If no, briefly summarize: the core bet, the appetite rationale, and any rabbit holes that were consciously no-go'd.
 

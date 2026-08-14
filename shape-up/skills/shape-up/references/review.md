@@ -1,15 +1,4 @@
----
-name: shape-up-reviewer
-description: >
-  Review Shape Up pitches before they go to a betting table. Use this skill whenever
-  a user wants to review, critique, stress-test, or get feedback on a Shape Up pitch —
-  even if they just say "review this pitch," "poke holes in this," "is this ready,"
-  or "what am I missing." Produces a scored review with structured feedback across all
-  six pitch elements, named gaps, targeted questions, and a betting-table readiness
-  verdict. Should trigger any time a pitch document is shared or a pitch review is requested.
----
-
-# Shape Up Pitch Reviewer
+# Shape Up: Review Mode
 
 Produces structured, scored reviews of Shape Up pitches for self-review before sharing with a betting table. The goal is to catch everything — structural gaps, weak evidence, unresolved decisions, hidden scope, and missing rabbit holes — so the shaper can strengthen the pitch before it goes to a senior audience.
 
@@ -17,8 +6,8 @@ Read the full pitch before forming any assessment. Do not comment section by sec
 
 ## References
 
-- `references/shape-up-methodology.md` — Full methodology reference. Read this before reviewing any pitch if you need to refresh on Shape Up concepts or scoring criteria.
-- `references/annotated-examples.md` — Two annotated Bitly pitches from the CTO. Use these to calibrate what "strong" looks like and what gaps exist even in high-quality pitches.
+- `references/review-methodology.md` — Full methodology reference. Read this before reviewing any pitch if you need to refresh on Shape Up concepts or scoring criteria.
+- `references/review-annotated-examples.md` — Two annotated Bitly pitches from the CTO. Use these to calibrate what "strong" looks like and what gaps exist even in high-quality pitches.
 
 ---
 

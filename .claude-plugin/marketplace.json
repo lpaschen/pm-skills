@@ -10,7 +10,7 @@
   "plugins": [
     {
       "name": "pm-analytics",
-      "description": "Product analytics skill with three modes: A/B testing (design + results), data analysis, and SQL query explainer.",
+      "description": "Product analytics skill with four modes: A/B testing (design + results), data analysis, initiative impact tracking, and SQL query explainer.",
       "source": "./pm-analytics",
       "category": "product-management"
     },
@@ -28,8 +28,14 @@
     },
     {
       "name": "pm-execution",
-      "description": "Skills for shipping: PRDs, release notes, feature prioritisation, experiment design, A/B test planning, launch readiness, and resolving ambiguity.",
+      "description": "Shipping skill with four modes: ambiguity resolution, feature prioritization, launch readiness, and release notes.",
       "source": "./pm-execution",
+      "category": "product-management"
+    },
+    {
+      "name": "shape-up",
+      "description": "Write a Shape Up pitch and review it before the betting table.",
+      "source": "./shape-up",
       "category": "product-management"
     },
     {
