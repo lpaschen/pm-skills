@@ -1,0 +1,12 @@
+{
+  "name": "the-fool",
+  "version": "1.0.0",
+  "description": "Structured critical reasoning to stress-test any idea, plan, or decision — Socratic questioning, dialectic synthesis, pre-mortem, red team, or evidence audit.",
+  "author": {
+    "name": "Jeff Allan",
+    "url": "https://github.com/Jeffallan"
+  },
+  "keywords": ["devils-advocate", "critical-thinking", "pre-mortem", "red-team", "socratic", "evidence-audit"],
+  "homepage": "https://jeffallan.github.io/claude-skills/skills/workflow/the-fool/",
+  "license": "MIT"
+}

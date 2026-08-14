@@ -67,6 +67,12 @@
       "description": "Transform notes into professional performance reviews with structured templates and clear framing.",
       "source": "./performance-review",
       "category": "people-management"
+    },
+    {
+      "name": "the-fool",
+      "description": "Structured critical reasoning to stress-test any idea, plan, or decision — Socratic questioning, dialectic synthesis, pre-mortem, red team, or evidence audit.",
+      "source": "./the-fool",
+      "category": "workflow"
     }
   ]
 }
