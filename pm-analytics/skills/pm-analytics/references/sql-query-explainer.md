@@ -1,11 +1,7 @@
----
-name: sql-query-explainer
-description: Explain SQL queries in plain English and suggest optimisations
----
 
-# SQL Query Explainer Skill Content
+# SQL Query Explainer
 
-This documentation describes a skill for analyzing and working with SQL queries across multiple database systems (PostgreSQL, MySQL, BigQuery, Snowflake, SQLite).
+Analyze and work with SQL queries across multiple database systems (PostgreSQL, MySQL, BigQuery, Snowflake, SQLite).
 
 ## Core Functionality
 

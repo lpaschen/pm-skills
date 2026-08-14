@@ -1,28 +1,35 @@
----
-name: data-analysis-standard
-description: Structures product data analysis, metric deep-dives, funnel analysis, and cohort studies. Use when asked to analyse product metrics, investigate a drop in conversion, build a dashboard spec, or explain data to stakeholders. Triggers on "analyse metrics", "funnel analysis", "cohort analysis", "data deep dive", "why did X drop".
----
+# Data Analysis
 
-# Data Analysis Standard Skill
+Turn raw numbers into product decisions. Structure every analysis with a clear question, methodology, finding, and recommended action — a chart with no narrative is not an analysis.
 
-Turn raw numbers into product decisions. Structure every analysis with a clear question, methodology, finding, and recommended action.
+## Step 1: Define the Question
 
-## Analysis Framework: The 4-Question Method
+Restate the question in one crisp sentence before pulling any data. If the input is vague, ask:
+- "What metric or behavior are you investigating?"
+- "What time period are you looking at?"
+- "Do you have data to share, or should I help you frame what to pull?"
 
-Every analysis starts here:
+## Step 2: Frame the Methodology
 
-1. **What changed?** (describe the metric and its movement)
+Pick the analytical approach that fits the question:
+- **Trend analysis** — metric over time with inflection point identification
+- **Segmentation** — break by user type, plan, cohort, geography, or channel
+- **Funnel analysis** — drop-off at each stage
+- **Cohort analysis** — retention or behavior grouped by acquisition date
+- **Correlation** — identify co-occurring signals
+
+## Step 3: The 4-Question Method
+
+Every analysis answers all four — never deliver data without them:
+
+1. **What changed?** (the metric and its movement)
 2. **Why did it change?** (root cause — segment, funnel step, cohort, channel)
 3. **So what?** (business or product impact)
 4. **Now what?** (recommended action with confidence level)
 
-Never deliver data without answering all four. A chart with no narrative is not an analysis.
+## Templates
 
----
-
-## Metric Triage Template
-
-Use when a metric has moved unexpectedly:
+### Metric Triage (use when a metric moved unexpectedly)
 
 ```
 METRIC: [Name]
@@ -45,39 +52,27 @@ CONCLUSION: [Single sentence answer to "why did this change?"]
 CONFIDENCE: [High / Medium / Low] — based on [data available]
 ```
 
----
-
-## Funnel Analysis Structure
+### Funnel Analysis
 
 | Stage | Metric | Current | Benchmark/Target | Drop-off % | Notes |
 |-------|--------|---------|-----------------|------------|-------|
 | [Top of funnel] | [Users] | [N] | [N] | — | |
 | [Step 2] | [Users] | [N] | [N] | [X%] | |
-| [Step 3] | [Users] | [N] | [N] | [X%] | |
 | [Conversion] | [Users] | [N] | [N] | [X%] | |
 
 **Biggest drop-off:** [Step X → Step Y] — Hypothesis: [reason]
 **Recommended investigation:** [specific query or test]
 
----
+### Cohort Analysis
 
-## Cohort Analysis Guidelines
+Always define: **Cohort definition** (what groups users — signup week, first action, plan type), **Retention metric** (what counts as retained), **Retention window** (D1, D7, D30, W4, M3, etc.).
 
-Always define:
-- **Cohort definition:** [What groups users — signup week, first action, plan type]
-- **Retention metric:** [What counts as retained — login, core action, revenue]
-- **Retention window:** [D1, D7, D30, W4, M3, etc.]
+Output a cohort retention table and annotate baseline retention per cohort, which cohorts over/underperform and why (feature launch? campaign? seasonal?), and the trend direction across cohorts.
 
-Output a cohort retention table and annotate:
-- Baseline retention for each cohort
-- Cohorts that over/underperform and why (feature launch? campaign? seasonal?)
-- Trend direction across cohorts (improving / declining / stable)
+## Output Format
 
----
-
-## Stakeholder Analysis Output Format
-
-### [Analysis Title] — [Date]
+```markdown
+## [Analysis Title] — [Date]
 
 **Question being answered:** [Specific question in plain English]
 **Time period:** [Date range]
@@ -97,9 +92,14 @@ Output a cohort retention table and annotate:
 2. [Investigation needed — what to check next]
 3. [Monitoring — what metric to watch and at what cadence]
 
-**What this analysis does NOT tell us:** [Important caveat — what data is missing or what can't be concluded]
+**Open Questions:** [What additional data would sharpen the answer]
 
----
+**What this analysis does NOT tell us:** [Important caveat — what data is missing or what can't be concluded]
+```
+
+## Step 4: Validate
+
+Ask if the findings match what the user is seeing. Offer to go deeper on any segment or run the query needed to pull more data.
 
 ## Guidelines
 
@@ -108,3 +108,4 @@ Output a cohort retention table and annotate:
 - If the user has no baseline, recommend establishing one before drawing conclusions
 - Recommend the simplest chart for each finding: bar for comparison, line for trends, scatter for correlation, table for detailed breakdowns
 - Always specify the time window — "conversion dropped" is meaningless without "from X to Y over Z period"
+- If the recommended action is a product change worth testing, hand off to the **A/B Testing** mode

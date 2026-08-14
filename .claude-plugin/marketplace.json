@@ -10,7 +10,7 @@
   "plugins": [
     {
       "name": "pm-analytics",
-      "description": "Skills for product analytics: A/B tests, data analysis, experiment design, health checks, retention, and SQL.",
+      "description": "Product analytics skill with three modes: A/B testing (design + results), data analysis, and SQL query explainer.",
       "source": "./pm-analytics",
       "category": "product-management"
     },
