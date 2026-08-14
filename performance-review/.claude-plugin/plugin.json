@@ -1,0 +1,12 @@
+{
+  "name": "performance-review",
+  "version": "1.0.0",
+  "description": "Transform notes into professional performance reviews with structured templates and clear framing.",
+  "author": {
+    "name": "Liz Paschen",
+    "url": "https://github.com/lpaschen/pm-skills"
+  },
+  "keywords": ["performance-review", "self-assessment", "360", "people-management"],
+  "homepage": "https://github.com/lpaschen/pm-skills",
+  "license": "MIT"
+}

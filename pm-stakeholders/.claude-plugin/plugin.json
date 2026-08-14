@@ -1,7 +1,7 @@
 {
   "name": "pm-stakeholders",
-  "version": "1.0.0",
-  "description": "Skills for stakeholder communication: executive updates, stakeholder briefs, influence mapping, performance reviews, and weekly reviews.",
+  "version": "2.0.0",
+  "description": "Stakeholder communication skill with four modes: weekly recap, stakeholder/exec updates, product review prep, and stakeholder alignment planning.",
   "author": {
     "name": "Liz Paschen",
     "url": "https://github.com/lpaschen/pm-skills"

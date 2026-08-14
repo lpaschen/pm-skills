@@ -34,7 +34,7 @@
     },
     {
       "name": "pm-stakeholders",
-      "description": "Skills for stakeholder communication: executive updates, stakeholder briefs, influence mapping, performance reviews, and weekly reviews.",
+      "description": "Stakeholder communication skill with four modes: weekly recap, stakeholder/exec updates, product review prep, and stakeholder alignment planning.",
       "source": "./pm-stakeholders",
       "category": "product-management"
     },
@@ -49,6 +49,12 @@
       "description": "Miscellaneous PM career and utility skills: job applications, CV tailoring, and ATS optimisation.",
       "source": "./pm-toolkit",
       "category": "product-management"
+    },
+    {
+      "name": "performance-review",
+      "description": "Transform notes into professional performance reviews with structured templates and clear framing.",
+      "source": "./performance-review",
+      "category": "people-management"
     }
   ]
 }
