@@ -1,12 +1,12 @@
 {
   "name": "pm-discovery",
-  "version": "1.0.0",
-  "description": "Skills for product discovery: user interviews, research synthesis, competitive intelligence, and signal aggregation.",
+  "version": "2.0.0",
+  "description": "Product discovery skill with seven modes: interview guides, research synthesis, jobs-to-be-done, persona building, journey mapping, competitive intelligence, and prototyping.",
   "author": {
     "name": "Liz Paschen",
     "url": "https://github.com/lpaschen/pm-skills"
   },
-  "keywords": ["pm", "discovery", "research", "interviews", "competitive", "synthesis"],
+  "keywords": ["pm", "discovery", "research", "interviews", "competitive", "synthesis", "jtbd", "persona", "journey-mapping", "prototype"],
   "homepage": "https://github.com/lpaschen/pm-skills",
   "license": "MIT"
 }
