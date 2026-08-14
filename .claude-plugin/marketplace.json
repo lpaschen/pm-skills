@@ -46,7 +46,7 @@
     },
     {
       "name": "pm-strategy",
-      "description": "Skills for product strategy: AI product canvas, OKRs, pricing, strategy critique, roadmap narrative, and strategic storytelling.",
+      "description": "Product strategy skill with five modes: product strategy (build + critique), roadmap narrative, scoping an AI feature, pricing strategy, and positioning statements.",
       "source": "./pm-strategy",
       "category": "product-management"
     },

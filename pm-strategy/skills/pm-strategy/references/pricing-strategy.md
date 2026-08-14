@@ -1,9 +1,4 @@
----
-name: pricing-strategy
-description: Evaluate and design pricing models, tiers, and packaging using SaaS pricing frameworks
----
-
-# Pricing Strategy Skill - Complete Content
+# Pricing Strategy
 
 ## Overview
 This skill guides pricing decisions for SaaS and digital products through structured frameworks covering customer segmentation, value metrics, competitive positioning, and packaging design.

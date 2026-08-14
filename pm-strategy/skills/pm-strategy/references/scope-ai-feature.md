@@ -1,9 +1,4 @@
----
-name: ai-product-canvas
-description: Structures AI and ML product decisions including model selection, data requirements, evaluation frameworks, and responsible AI considerations. Use when building AI-powered features, evaluating LLM integrations, designing AI products, or assessing AI readiness. Triggers on "AI product", "LLM feature", "AI canvas", "build with AI", "AI integration", "AI-powered", "machine learning feature".
----
-
-# AI Product Canvas Skill
+# Scope an AI Feature
 
 Define AI products with the same rigour as any product decision — but with additional layers for data, model, evaluation, and responsible AI. This canvas prevents the most common AI product failure: building a technically impressive feature that doesn't solve a real problem.
 
