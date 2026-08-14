@@ -1,11 +1,6 @@
----
-name: design-critique
-description: "Give structured, constructive feedback on any design. Use when asked to critique a design, review a UI, give feedback on a Figma file or wireframe, assess a user flow, or evaluate a design against UX principles. Applies Jobs-to-be-Done, Gestalt principles, and usability heuristics to give actionable feedback."
----
+# Design Critique
 
-# Design Critique Skill
-
-This skill provides structured, actionable design feedback using established UX frameworks. It balances positive observations with clear, prioritised improvement suggestions.
+This mode provides structured, actionable design feedback using established UX frameworks. It balances positive observations with clear, prioritised improvement suggestions.
 
 ## Required Inputs
 
