@@ -1,69 +1,44 @@
 # Product Strategy
 
-Two phases: **Build** creates a structured product strategy from a product area or opportunity, **Critique** plays devil's advocate on an existing strategy to surface gaps before it's presented — checked against the same six strategic dimensions either way.
-
-## The Six Strategic Dimensions
-
-Every strategy — built or critiqued — must address:
-1. Target audience
-2. Problem to solve
-3. Value proposition
-4. Competitive advantage / strategic differentiation
-5. Growth strategy / channel strategy
-6. Business model / monetization strategy
+Two phases: **Build** creates a product strategy from a blank page using the Foundation Sprint's forced-specificity method, **Critique** plays devil's advocate on an existing strategy to surface gaps before it's presented — checked against six strategic dimensions.
 
 ## Phase 1: Build
 
-### Step 1: Gather Context
+For when there's no strategy yet to critique — this builds one from a blank page, using the Foundation Sprint's core method: force every answer to be specific enough to act on, reject anything generic, and bundle the result into one coherent frame instead of four separate opinions.
 
-Ask if not provided:
-- "What product or feature area is this strategy for?"
-- "What is the time horizon?" (quarterly, annual, 3-year)
-- "What business goal does this need to serve?"
+### The Four Decisions
 
-### Step 2: Build the Strategy
+Work through these in order. Each one gets rejected and re-asked if it's vague — don't accept a weak answer just to keep moving.
 
-```markdown
-## Product Strategy: [Product / Initiative]
-**Horizon:** [Time period]
+**1. Target Customer**
 
-### Situation
-[Where we are now — current state of the product, market, and users]
+Not a demographic ("SaaS teams"). A specific, recognizable person or segment with markers: role, context, scale. "PMs at Series B-C SaaS companies managing 3+ product lines" passes. "Product managers" doesn't — ask for markers until it does.
 
-### Target Audience
-**Primary:** [Who we're building for — segment, profile, JTBD]
-**Secondary:** [Adjacent users who benefit]
-**Not targeting (this cycle):** [Who we're explicitly deprioritising]
+**2. Important Problem**
 
-### Problem to Solve
-[The specific user and business problem this strategy addresses]
+A pain strong enough that the customer would actually switch away from what they do today — including doing nothing. Ask directly: "What do they do instead right now, and why would they leave it for this?" If the honest answer is "it's a mild annoyance," this isn't an important problem yet — keep pushing on it or pick a different one.
 
-### Strategic Bets
-1. [Bet 1] — [Why this, why now, what we'd need to believe]
-2. [Bet 2] — [Why this, why now, what we'd need to believe]
-3. [Bet 3] — [Why this, why now, what we'd need to believe]
+**3. Team/Company Advantage**
 
-### Differentiation
-[What makes this defensible — why can't a competitor copy this in 6 months?]
+Not "we have a great team" or "we move fast" — those get rejected. Specific, evidenced edges: a capability, a relationship, a distribution channel, data no one else has, timing. Ask for the concrete version: not "we're customer-obsessed" but "we've run 40 customer interviews on this exact problem and no competitor has talked to more than 5."
 
-### Growth Model
-[How this product grows — acquisition loop, retention driver, expansion motion]
+**4. Competitor and Alternative Map**
 
-### Monetization
-[How this creates or expands revenue — new tier, upsell, retention impact]
+Map direct competitors, substitute workflows, manual workarounds, and — always include this one — doing nothing. For each, note why customers use it and why they'd leave. Doing nothing is usually the strongest competitor and the most commonly forgotten one.
 
-### Success Metrics
-| Objective | Metric | 12-month Target |
-|---|---|---|
-| [Objective] | [Metric] | [Target] |
+### Bundling
 
-### Key Risks
-| Risk | Likelihood | Impact | Mitigation |
-|---|---|---|---|
-| [Risk] | H/M/L | H/M/L | [How you'd address it] |
-```
+Don't hand these back as four separate answers. Check they cohere: does the team's advantage actually address the customer's important problem better than the alternatives they're using today? If the four pieces don't reinforce each other, that's a finding, not a formality — flag it and revisit whichever piece is weakest before moving on.
 
-Once built, offer: "Want me to stress-test this now with the Critique phase before you take it further?"
+### Output
+
+A one-page strategic frame: target customer, important problem, team advantage, and the alternative map, plus one line on why this combination wins against the current best alternative (including doing nothing). This is the input to `shape-up`'s Pitch mode — the "Problem" and differentiation sections of a pitch should draw directly from this frame rather than being redrafted from scratch.
+
+### Common Pitfalls
+
+Accepting a vague target customer or generic advantage because pushing back feels like friction — the whole value of this method is refusing to move on until each answer is specific enough to be wrong in a useful way. Skipping "doing nothing" in the alternative map. Treating the four decisions as independent instead of checking whether they actually cohere as one strategy.
+
+Once built, offer: "Want me to stress-test this now with the Critique phase before you take it to a pitch?"
 
 ---
 
@@ -73,7 +48,15 @@ Play devil's advocate. Don't be nice. Point out in detail why the strategy may n
 
 ### Step 1: Verify Coverage of the Six Dimensions
 
-Check whether the strategy addresses each of the six dimensions above. If a dimension is left unaddressed, call it out clearly — an unaddressed dimension is itself a finding.
+Check whether the strategy addresses each of the following (regardless of which method built it):
+1. Target audience
+2. Problem to solve
+3. Value proposition
+4. Competitive advantage / strategic differentiation
+5. Growth strategy / channel strategy
+6. Business model / monetization strategy
+
+If a dimension is left unaddressed, call it out clearly — an unaddressed dimension is itself a finding.
 
 ### Step 2: Critique Each Dimension
 

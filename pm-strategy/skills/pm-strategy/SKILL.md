@@ -1,11 +1,11 @@
 ---
 name: pm-strategy
-description: Use for product strategy work — building or critiquing an overall product strategy, turning initiatives into a roadmap narrative, scoping an AI feature before building it, designing pricing/packaging, or writing a positioning statement. Triggers on "product strategy", "critique this strategy", "poke holes in this strategy", "roadmap narrative", "roadmap story", "explain our roadmap", "AI feature", "AI canvas", "LLM feature", "pricing strategy", "pricing tiers", "positioning statement", "differentiation".
+description: Use for product strategy work — building a product strategy from scratch or critiquing an existing one, turning initiatives into a roadmap narrative, scoping an AI feature before building it, designing pricing/packaging, or writing a positioning statement. Triggers on "product strategy", "build a product strategy", "define our strategy", "strategy from scratch", "critique this strategy", "poke holes in this strategy", "roadmap narrative", "roadmap story", "explain our roadmap", "AI feature", "AI canvas", "LLM feature", "pricing strategy", "pricing tiers", "positioning statement", "differentiation".
 license: MIT
 metadata:
   author: Liz Paschen
   domain: strategy
-  related-skills: pm-discovery, pm-execution
+  related-skills: pm-discovery, pm-execution, shape-up
 ---
 
 # PM Strategy
@@ -17,7 +17,7 @@ Note: OKRs were scrapped from this skill entirely — not left unconsolidated, r
 ## Mode Selection
 
 Infer directly when the request clearly signals one mode — don't ask:
-- "product strategy / critique this strategy / poke holes in this / build our strategy" → **Product Strategy**
+- "product strategy / build a product strategy / define our strategy / strategy from scratch / critique this strategy / poke holes in this" → **Product Strategy**
 - "roadmap narrative / roadmap story / explain our roadmap / connect initiatives to strategy" → **Roadmap Narrative**
 - "AI feature / AI canvas / LLM feature / build with AI / AI-powered" → **Scope an AI Feature**
 - "pricing strategy / pricing tiers / packaging / freemium" → **Pricing Strategy**
@@ -41,7 +41,7 @@ Ask with `AskUserQuestion` in two steps only when the request is genuinely ambig
 
 | Mode | Reference | Use When |
 |------|-----------|----------|
-| Product Strategy | `references/product-strategy.md` | Building a new product strategy, or critiquing an existing one (2 phases) |
+| Product Strategy | `references/product-strategy.md` | Building a new product strategy from scratch (Foundation Sprint method), or critiquing an existing one (2 phases) |
 | Roadmap Narrative | `references/roadmap-narrative.md` | Turning a prioritized initiative list into a stakeholder-ready story |
 | Scope an AI Feature | `references/scope-ai-feature.md` | Rigor-checking an AI/ML feature before building it — approach, data, evaluation, responsible AI |
 | Pricing Strategy | `references/pricing-strategy.md` | Designing or evaluating pricing models, tiers, and packaging |
