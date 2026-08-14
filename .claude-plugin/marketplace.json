@@ -57,6 +57,12 @@
       "category": "product-management"
     },
     {
+      "name": "jehiah-brain",
+      "description": "Pressure-test PRDs, architecture proposals, and engineering plans the way Bitly's Sr Principal Architect actually would — grounded in his real, documented review patterns.",
+      "source": "./jehiah-brain",
+      "category": "engineering-review"
+    },
+    {
       "name": "performance-review",
       "description": "Transform notes into professional performance reviews with structured templates and clear framing.",
       "source": "./performance-review",

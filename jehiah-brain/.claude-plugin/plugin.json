@@ -1,0 +1,12 @@
+{
+  "name": "jehiah-brain",
+  "version": "1.0.0",
+  "description": "Pressure-test PRDs, architecture proposals, and engineering plans the way Bitly's Sr Principal Architect actually would — grounded in his real, documented review patterns.",
+  "author": {
+    "name": "Liz Paschen",
+    "url": "https://github.com/lpaschen/pm-skills"
+  },
+  "keywords": ["architecture-review", "technical-critique", "prd-review", "engineering", "devils-advocate"],
+  "homepage": "https://github.com/lpaschen/pm-skills",
+  "license": "MIT"
+}
