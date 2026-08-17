@@ -1,92 +1,91 @@
 # pm-skills
 
-A collection of 35 custom Claude skills for product managers. These skills give Claude structured frameworks, templates, and domain expertise for common PM workflows — from discovery interviews to competitive analysis to executive updates.
+A Claude Code plugin marketplace of 11 domain-specific plugins for product managers — covering discovery, strategy, execution, analytics, stakeholder communication, design collaboration, and critical-reasoning tools.
+
+Most plugins are a single **mode-routed skill**: one entry point that infers which mode you need from how you ask, and only asks a clarifying question when the request is genuinely ambiguous. This replaced an earlier structure of 40+ separately-named skills and slash commands, which had gotten hard to remember and use.
 
 ## How to Use
 
-### In Cowork
-Skills in this repo are automatically available when you connect your Skills folder in Cowork. Claude will pick them up and use the right one based on what you ask.
-
 ### In Claude Code
-Clone this repo and symlink it to your Claude skills directory:
+
+Add this repo as a plugin marketplace, then install the plugins you want:
 
 ```bash
-git clone https://github.com/lpaschen/pm-skills.git
-ln -s /path/to/pm-skills ~/.claude/skills
+claude plugin marketplace add lpaschen/pm-skills
+claude plugin install pm-strategy
 ```
 
-Then run `claude` from any project folder — skills will be available automatically.
+(The same commands work as `/plugin marketplace add ...` and `/plugin install ...` inside an interactive session.)
+
+Repeat `claude plugin install <name>` for whichever plugins below you want available. Run `claude plugin marketplace update pm-skills` to pull the latest changes from this repo into an already-added marketplace.
 
 ### Triggering a Skill
-Most skills trigger automatically based on what you ask. You can also invoke them directly by name, e.g.:
 
-> "Use the prd-template skill to write a spec for..."
-> "Run a competitive-analysis on Notion vs Coda"
-> "Help me write a discovery-interview-guide for our onboarding research"
+Most plugins trigger automatically based on what you ask — no need to name them. For example, "write a Shape Up pitch for X" triggers `shape-up`'s Pitch mode directly; "help me with discovery" on `pm-discovery` (7 modes) will ask a quick clarifying question first since the request doesn't point at one specific mode.
 
 ---
 
-## Skills
+## Plugins
 
-| Skill | Description |
-|-------|-------------|
-| `ab-test-planner` | Design statistically rigorous A/B tests for product features, UI changes, and onboarding flows |
-| `ai-product-canvas` | Structure AI/ML product decisions including model selection, data requirements, evaluation frameworks, and responsible AI considerations |
-| `ambiguity-resolver` | Turn vague opportunities and unclear briefs into structured, actionable problem statements |
-| `competitive-analysis` | Research the competitive landscape — identify competitors, compare strengths and weaknesses, surface differentiation opportunities |
-| `competitive-intelligence-monitor` | Monitor competitor signals and surface strategic insights from web, news, and product changes |
-| `competitor-pricing-change` | Check competitor pricing pages for changes and flag anything that's shifted since the last snapshot |
-| `data-analysis-standard` | Structure product data analyses with a clear question, methodology, finding, and recommended action |
-| `design-critique` | Provide structured UX feedback using Nielsen's heuristics, Gestalt principles, and JTBD alignment |
-| `design-handoff-brief` | Transform feature briefs into structured design briefs that give designers the user context and constraints they need |
-| `discovery-interview-guide` | Create structured user discovery interview guides with screener questions, discussion guides, and synthesis frameworks |
-| `executive-update` | Transform detailed product updates into concise executive briefings structured around decisions, risks, and numbers |
-| `experiment-designer` | Design A/B tests from hypotheses and interpret results with statistical and practical significance |
-| `feature-prioritisation` | Apply RICE, MoSCoW, Kano, ICE, or Opportunity Scoring frameworks to rank features and backlog items |
-| `initiative-impact-tracking` | Generate a pre-launch hypothesis, create an initiative log entry, or write a monthly learning doc entry — the three parts of the initiative impact tracking process |
-| `job-application` | Tailor a CV and cover letter to a specific job description with ATS optimisation and gap analysis |
-| `launch-readiness` | Run a comprehensive pre-launch readiness assessment across product, engineering, marketing, support, and sales |
-| `multi-source-signal-synthesiser` | Synthesise user signals from multiple research sources (interviews, support tickets, NPS, reviews) into a unified insight brief |
-| `okr-builder` | Create well-structured Objectives and Key Results with quality checks and scoring guidance |
-| `performance-review` | Transform notes into professional performance reviews with structured templates and clear framing |
-| `pm-weekly-review` | Run a structured 20-minute weekly PM review covering metrics, shipping progress, blockers, and next priorities |
-| `prd-template` | Write a complete Product Requirements Document from a problem statement or feature idea |
-| `product-review` | Prepare and run a Product Review with Bitly's CEO, CPO, and Sr Director of Product — pre-read doc, session structure, and debrief template |
-| `pricing-strategy` | Evaluate and design pricing models, tiers, and packaging using SaaS pricing frameworks |
-| `product-health-analysis` | Assess overall product health across acquisition, activation, engagement, retention, and revenue metrics |
-| `product-strategy-critique` | Play devil's advocate on a product strategy — identify gaps across target audience, problem definition, value prop, differentiation, growth, and monetisation |
-| `retention-analysis` | Structure retention analyses including cohort breakdowns, churn root cause investigation, and improvement recommendations |
-| `roadmap-narrative` | Transform a prioritised initiative list into a compelling strategic roadmap narrative for stakeholders |
-| `shape-up-pitch` | Write a Shape Up pitch — Problem, Appetite, Solution, Rabbit Holes, Expected Revenue Impact, No-Gos — following a structured shaping process before writing |
-| `shape-up-reviewer` | Review a Shape Up pitch before it goes to the betting table — scored feedback, hard blockers, and a READY / READY WITH CONDITIONS / NOT READY verdict |
-| `sql-query-explainer` | Explain SQL queries in plain English and suggest optimisations |
-| `stakeholder-influence-mapper` | Map stakeholder relationships, interests, and influence to inform alignment and communication strategy |
-| `stakeholder-update` | Write targeted stakeholder updates tailored to audience, cadence, and communication goal |
-| `strategic-narrative-generator` | Transform a list of product initiatives into a coherent strategic narrative for non-technical audiences |
-| `user-interview-synthesis` | Synthesise user interview transcripts into structured themes, insights, and actionable recommendations |
-| `user-research-synthesis` | Synthesise mixed-method user research into prioritised findings and product implications |
+### `pm-design` — 2 modes
+Critique an existing design/UI/flow, or write a design handoff brief before a feature goes to a designer.
+
+### `pm-discovery` — 7 modes
+Discovery Interview Guide · Research Synthesis · Jobs to Be Done · Persona Builder · Journey Mapping · Competitive Intelligence (Analyze / Track) · Prototype (Build / Refine)
+
+### `pm-analytics` — 4 modes
+A/B Testing (Design / Results) · Data Analysis · Initiative Impact Tracking (hypothesis / log / learning) · SQL Query Explainer
+
+### `pm-execution` — 4 modes
+Ambiguity Resolver · Feature Prioritization · Launch Readiness · Generate Release Notes
+
+### `pm-stakeholders` — 4 modes
+Weekly Recap · Write a Stakeholder Update · Prep for a Product Review · Plan Stakeholder Alignment
+
+### `pm-strategy` — 5 modes
+Product Strategy (Build / Critique) · Roadmap Narrative · Scope an AI Feature · Pricing Strategy · Positioning Statement
+
+### `shape-up` — 2 modes
+Write a Shape Up pitch, or review one before it goes to the betting table.
+
+### `pm-toolkit` — 1 mode
+Tailor a CV and cover letter to a specific job description.
+
+### `jehiah-brain` — 1 mode
+Pressure-test a PRD, architecture proposal, or engineering plan the way Bitly's Sr Principal Architect actually would, grounded in his real review history.
+
+### `performance-review` — 1 mode
+Transform notes into professional performance reviews with structured templates and clear framing.
+
+### `the-fool` — 5 modes
+Structured critical reasoning to stress-test any idea, plan, or decision: Socratic questioning, dialectic synthesis, pre-mortem analysis, red team adversarial, evidence audit. Imported from [jeffallan/claude-skills](https://github.com/jeffallan/claude-skills) (MIT licensed).
 
 ---
 
 ## Structure
 
-Each skill lives in its own folder with a `SKILL.md` file containing instructions, output templates, and frameworks. Some skills include a `best-practices/` subfolder with reference documents Claude reads during execution.
+Each plugin has a `.claude-plugin/plugin.json` and a `skills/<plugin-name>/` folder containing the front-door `SKILL.md` plus a `references/` folder with one file per mode:
 
 ```
 pm-skills/
-├── competitive-analysis/
-│   └── SKILL.md
-├── product-strategy-critique/
-│   ├── SKILL.md
-│   └── best-practices/
-│       ├── target-audience.md
-│       ├── value-proposition.md
-│       └── ...
+├── .claude-plugin/
+│   └── marketplace.json
+├── pm-design/
+│   ├── .claude-plugin/
+│   │   └── plugin.json
+│   └── skills/
+│       └── pm-design/
+│           ├── SKILL.md
+│           └── references/
+│               ├── design-critique.md
+│               └── design-handoff-brief.md
 └── ...
 ```
+
+The front-door `SKILL.md` handles mode selection (infer from the request, or ask via `AskUserQuestion` when ambiguous) and points to the matching `references/*.md` file for the actual process and output template.
 
 ---
 
 ## Contributing
 
-Found a skill worth adding? Improvements welcome via pull request.
+Found a mode worth adding, or a plugin that needs sharper personalization for how you actually work? Improvements welcome via pull request.
